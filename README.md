@@ -221,7 +221,7 @@ User "Jrmbt" is a elite
 
 **List of challenges solved by a user** 
 ```bash
-$> python3 rootme_chall_finder.py --user-challenges Tmax --cookie {spip_session}
+$> python3 rootme_chall_finder.py --user-challenges Geluchat --cookie {spip_session}
 
 
 [+] ==========================
