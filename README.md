@@ -9,7 +9,7 @@ The tool runs with `python3`.
 Please make sure to install the dependencies with the following command.
 
 ```bash
-git clone git@github.com:jdouliez/rootme-challenges-finder.git
+git clone git@github.com:546D6178/rootme-challenges-finder.git
 cd rootme-challenges-finder
 pip3 install -r requirements.txt
 python3 rootme_chall_finder.py --help
@@ -219,6 +219,52 @@ User "Jrmbt" is a elite
  * RF - Bande L
 ```
 
+**List of challenges solved by a user** 
+```bash
+$> python3 rootme_chall_finder.py --user-challenges Tmax --cookie {spip_session}
+
+
+[+] ==========================
+[+]      Validated Challenges for Geluchat        
+[+] ==========================
+User "Geluchat" is a elite
+ * Score : 17290
+ * Position : 25
+
+[+] We have found 413 challenges solved.
+
+[+] =====================================
+[+]             Steganography            
+[+] =====================================
+ * WAV - Analyse de bruit
+ * Point à la ligne
+ * TXT - George et Alfred
+ * Steganomobile
+ * WAV - Analyse spectrale
+ * Crypt-art
+ * PNG - Least Significant Bit
+ * EXIF - Miniature
+ * Twitter Secret Messages
+ * PNG - Pixel Value Differencing
+ * Points jaunes
+ * PDF - Embedded
+ * PNG - Pixel Indicator Technique
+ * Angecryption
+ * Base Jumper
+ * Kitty spy
+ * Poem from Space
+ * Hide and seek
+
+[+] ====================================
+[+]             Web - Server            
+[+] ====================================
+ * HTML - Code source
+ * HTTP - User-agent
+ * Mot de passe faible
+ * HTTP - Directory indexing
+ * HTTP - Headers
+
+```
 ## Examples
 
 ![IMG 0](./images/img-0.png)
