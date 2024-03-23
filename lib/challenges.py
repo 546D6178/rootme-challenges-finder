@@ -52,6 +52,7 @@ def get_all_users_challenges(usernames, cookie):
     for username in usernames.split(","):
         username = username.strip()
         info = get_all_info_for_user(username, cookie=cookie)
+        #print(f"Info for user {username}: {info}") 
         challenges.append(info['validations'])
         rang = "noob" if "rang" not in info else info['rang']
         position = "X" if info["position"] == "" else info["position"]
